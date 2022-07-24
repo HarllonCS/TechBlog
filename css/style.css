@@ -14,7 +14,7 @@
 #cabecalho {
     background-color: #1f1f1f;
     padding-top: 1px;
-    margin-top: 0px;
+    margin-top: 0px 0px 40px 0px;
     border-bottom: 5px solid #ffac12;
     height: 160px;
     line-height: 140px;
