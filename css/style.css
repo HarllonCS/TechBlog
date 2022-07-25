@@ -13,16 +13,6 @@
     src: url(../fonts/RobotoMono-Medium.ttf);
 }
 
-@font-face {
-    font-family: "site-fonte";
-    src: url(../fonts/RobotoMono-Regular.ttf);
-}
-
-.container {
-    font: 1em;
-    font-family: "site-fonte", monospace;
-}
-
 /* Página index.html */
 
 /* Cabeçalho */
