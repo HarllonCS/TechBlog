@@ -8,6 +8,34 @@ body {
 }
 
 .container {
-    font: 1em;
-    font-family: "site-fonte", monospace;
+    font: 1em "site-fonte", monospace;
+}
+
+#conts {
+    border: 2px solid red;
+    width: 80%; /* 1503px */
+    margin: 0 auto;
+}
+
+#conts-direita {
+    width: 1000px;
+    float: right;
+}
+
+#cont-dir-principal {
+    background-color: #bebe2a;
+    width: 700px;
+    float: left;
+}
+
+#cont-dir-lateral {
+    background-color: #e07a1a;
+    width: 300px;
+    float: right;
+}
+
+#conts-esquerda {
+    background-color: #aa0e0e;
+    width: 400px;
+    float: left;
 }
