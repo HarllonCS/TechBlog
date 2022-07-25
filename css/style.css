@@ -3,6 +3,10 @@
     src: url(../fonts/RobotoMono-Regular.ttf);
 }
 
+body {
+    background: #d8d8d8 url(../imgs/background.jpg);
+}
+
 .container {
     font: 1em;
     font-family: "site-fonte", monospace;
