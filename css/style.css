@@ -1,0 +1,208 @@
+@font-face {
+    font-family: "logo_fonte-1";
+    src: url(../fonts/Nunito-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: "logo_fonte-2";
+    src: url(../fonts/Nunito-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: "menu-fonte";
+    src: url(../fonts/RobotoMono-Medium.ttf);
+}
+
+.container {
+    font: 1em "site-fonte", monospace;
+}
+
+a {
+    text-decoration: none;
+    color: #696969;
+}
+
+/* Página index.html */
+
+/* Cabeçalho */
+
+#cabecalho {
+    background-color: #1f1f1f;
+    padding-top: 1px;
+    margin-top: 0px 0px 40px 0px;
+    border-bottom: 5px solid #ffac12;
+    height: 160px;
+    line-height: 140px;
+}
+
+#logo h1 {
+    font-size: 45px;
+    padding-left: 30px;
+    margin-top: 0px;
+    float: left;
+}
+
+/* menu do cabeçalho */
+
+#cabecalho-nav {
+    font-family: "menu-fonte", monospace;
+}
+
+#cabecalho-nav ul {
+    margin-top: 0px;
+    float: right;
+    list-style: none;
+}
+
+#cabecalho-nav li {
+    display: inline;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 0 20px;
+}
+
+#cabecalho-nav a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 2px;
+    transition: .4s;
+}
+
+#cabecalho-nav a:hover, #cabecalho-nav .pag-atual {
+    background-color: #eea111;
+}
+
+/* Estilização pra todas as caixas */
+
+#conts {
+    background-color: white;
+    border: 1px solid #c2c2c2;
+    box-shadow: 0 10px 15px 12px #00000060;
+    width: 80%; /* 1503px */
+    margin: 0 auto;
+}
+
+/* Caixa da direita */
+
+#conts-direita {
+    width: 1200px;
+    float: right;
+}
+
+/* Conteúdo principal da direita */
+
+#cont-dir-principal {
+    width: 880px;
+    float: left;
+    border-right: 1px solid #d1d1d1;
+}
+
+#cont-dir-principal img {
+    display: block;
+    width: 70%;
+    margin: 0 auto 30px auto;
+    border: 1px solid #a7a7a7;
+    padding: 6px;
+}
+
+#cont-dir-principal h1 {
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+#cont-dir-principal p {
+    text-align: justify;
+    font-size: 16px;
+    padding: 0 20px;
+}
+
+/* Conteúdo lateral da direita */
+
+#cont-dir-lateral {
+    width: 300px;
+    float: right;
+}
+
+#cont-dir-lateral h1 {
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+#cont-dir-lateral p {
+    font-size: 13px;
+    text-align: justify;
+    padding: 0 20px 0 10px;
+}
+
+#cont-dir-lateral a:hover {
+    text-decoration: underline;
+}
+
+#conts-direita .caixa {
+    margin-bottom: 55px;
+}
+
+/* Caixa da esquerda */
+
+#conts-esquerda {
+    width: 250px;
+    float: left;
+}
+
+#conts-esq-menu ul {
+    margin-top: 60px;
+}
+
+#conts-esq-menu li {
+    font-size: 13px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#conts-esq-menu a:hover {
+    text-decoration: underline;
+}
+
+/* Estilização do rodapé */
+
+#rodape {
+    background-color: #313131;
+    font-family: Calibri, sans-serif;
+    color: #dfdfdf;
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+
+#rodape .copy{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+#dados {
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    color: black;
+    width: 280px;
+    margin: 20px auto;
+    padding: 15px 0 10px 0;
+}
+
+#dados .contato {
+    width: 220px;
+    margin: 0 auto;
+}
+
+#dados p {
+    font-size: 18px;
+}
+
+#dados p span {
+    font-weight: bold;
+    text-transform: uppercase;
+}
