@@ -36,8 +36,9 @@ a {
 /* Conteúdo principal da direita */
 
 #cont-dir-principal {
-    width: 900px;
+    width: 880px;
     float: left;
+    border-right: 1px solid #d1d1d1;
 }
 
 #cont-dir-principal img {
