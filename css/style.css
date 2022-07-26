@@ -142,7 +142,7 @@ a {
 /* Conteúdo lateral da direita */
 
 #cont-dir-lateral {
-    width: 20%; /* 300px */
+    width: 25%; /* 300px */
     float: right;
 }
 
@@ -169,7 +169,8 @@ a {
 /* Caixa da esquerda */
 
 #conts-esquerda {
-    width: 250px;
+    width: 16%; /* 250px */
+    background-color: rgb(102, 0, 0);
     float: left;
 }
 
