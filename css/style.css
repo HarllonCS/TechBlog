@@ -11,31 +11,100 @@ body {
     font: 1em "site-fonte", monospace;
 }
 
+a {
+    text-decoration: none;
+    color: #696969;
+}
+
+/* Estilização pra todas as caixas */
+
 #conts {
-    border: 2px solid red;
+    background-color: white;
+    border: 1px solid #c2c2c2;
+    box-shadow: 0 10px 15px 12px #00000060;
     width: 80%; /* 1503px */
     margin: 0 auto;
 }
 
+/* Caixa da direita */
+
 #conts-direita {
-    width: 1000px;
+    width: 1200px;
     float: right;
 }
 
+/* Conteúdo principal da direita */
+
 #cont-dir-principal {
-    background-color: #bebe2a;
-    width: 700px;
+    width: 900px;
     float: left;
 }
 
+#cont-dir-principal img {
+    display: block;
+    width: 70%;
+    margin: 0 auto 30px auto;
+    border: 1px solid #a7a7a7;
+    padding: 6px;
+}
+
+#cont-dir-principal h1 {
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+#cont-dir-principal p {
+    text-align: justify;
+    font-size: 16px;
+    padding: 0 20px;
+}
+
+/* Conteúdo lateral da direita */
+
 #cont-dir-lateral {
-    background-color: #e07a1a;
     width: 300px;
     float: right;
 }
 
+#cont-dir-lateral h1 {
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+#cont-dir-lateral p {
+    font-size: 13px;
+    text-align: justify;
+    padding: 0 20px 0 10px;
+}
+
+#cont-dir-lateral a:hover {
+    text-decoration: underline;
+}
+
+#conts-direita .caixa {
+    margin-bottom: 55px;
+}
+
+/* Caixa da esquerda */
+
 #conts-esquerda {
-    background-color: #aa0e0e;
-    width: 400px;
+    width: 250px;
     float: left;
+}
+
+#conts-esq-menu ul {
+    margin-top: 60px;
+}
+
+#conts-esq-menu li {
+    font-size: 13px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#conts-esq-menu a:hover {
+    text-decoration: underline;
 }
