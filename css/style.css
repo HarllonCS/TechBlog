@@ -99,21 +99,21 @@ a {
     background-color: white;
     border: 1px solid #c2c2c2;
     box-shadow: 0 10px 15px 12px #00000060;
-    width: 80%; /* 1503px */
+    width: 80%; /* 1491px */
     margin: 0 auto;
 }
 
 /* Caixa da direita */
 
 #conts-direita {
-    width: 1200px;
+    width: 80%; /* 1200px */
     float: right;
 }
 
 /* Conteúdo principal da direita */
 
 #cont-dir-principal {
-    width: 880px;
+    width: 73%; /* 880 */
     float: left;
     border-right: 1px solid #d1d1d1;
 }
@@ -142,7 +142,7 @@ a {
 /* Conteúdo lateral da direita */
 
 #cont-dir-lateral {
-    width: 300px;
+    width: 20%; /* 300px */
     float: right;
 }
 
