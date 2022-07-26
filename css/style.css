@@ -13,6 +13,15 @@
     src: url(../fonts/RobotoMono-Medium.ttf);
 }
 
+@font-face {
+    font-family: "site-fonte";
+    src: url(../fonts/RobotoMono-Regular.ttf);
+}
+
+body {
+    background: #d8d8d8 url(../imgs/background.jpg);
+}
+
 .container {
     font: 1em "site-fonte", monospace;
 }
@@ -29,7 +38,7 @@ a {
 #cabecalho {
     background-color: #1f1f1f;
     padding-top: 1px;
-    margin-top: 0px 0px 40px 0px;
+    margin: 0px 0px 50px 0px;
     border-bottom: 5px solid #ffac12;
     height: 160px;
     line-height: 140px;
