@@ -169,7 +169,6 @@ a {
 /* Caixa da esquerda */
 
 #conts-esquerda {
-    background-color: white;
     width: 16%; /* 250px */
     float: left;
 }
